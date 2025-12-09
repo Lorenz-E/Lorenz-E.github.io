@@ -7,10 +7,34 @@
       <title>Website Design für Bizepsdöner</title>
       <script type="module" crossorigin src="./assets/index-lS20bacs.js"></script>
       <link rel="stylesheet" crossorigin href="./assets/index-DySAI1wQ.css">
+        <style>
+            .floating-toggle {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                z-index: 9999;
+
+                background: #222;
+                color: #fff;
+                padding: 12px 18px;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: bold;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+
+                transition: all 0.2s ease;
+            }
+
+            .floating-toggle:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 6px 16px rgba(0,0,0,0.5);
+            }
+        </style>
     </head>
 
     <body>
-      <div id="root"></div>
+      <div id="root">
+      </div><a href="../hell/" class="floating-toggle">Hier geht es zur Seite B - Helles Design</a>
     </body>
   </html>
   

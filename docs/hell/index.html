@@ -7,10 +7,34 @@
       <title>Website Design für Bizepsdöner</title>
       <script type="module" crossorigin src="./assets/index-mkDa--CR.js"></script>
       <link rel="stylesheet" crossorigin href="./assets/index-DsLPaoi4.css">
+        <style>
+            .floating-toggle {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                z-index: 9999;
+
+                background: #ffffff;
+                color: #000000;
+                padding: 12px 18px;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: bold;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+                transition: all 0.2s ease;
+            }
+
+            .floating-toggle:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+            }
+        </style>
     </head>
 
     <body>
       <div id="root"></div>
+      <a href="../dunkel/" class="floating-toggle">Hier geht es zur Seite A - Dunkles Design</a>
     </body>
   </html>
   
